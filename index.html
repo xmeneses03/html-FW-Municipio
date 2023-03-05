@@ -13,124 +13,157 @@
     </head>
     <body>
         <div>
-            <div class="container" id="title">
+            <!-- <div class="container" id="title">
                 <h1><b>TUNJA, BOYACÁ</b></h1>   
+            </div> -->
+                 
+            <div id="nav-content">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <!-- <nav class="navbar navbar-inverse navbar-fixed-top"> -->
+                    <div class="container-fluid">
+                        <div id="logo-nav-content">
+                            <a class="navbar-brand" href="#"><b>TUNJA</b></a>
+                        </div>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        
+                        <form class="d-flex" id="ul-nav-content">   
+                          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav" id="ul-list-content">
+                                <li class="nav-item"><a class="nav-link" href="#">MUNICIPIO</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">RESEÑA HISTÓRICA</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">LUGARES TURÍSTICOS</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">FAUNA</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">FLORA</a></li>
+                            </ul>
+                          </div>
+                        </form>              
+                    </div>          
+                </nav>
             </div>
-                  
-            <hr/>
-            <div class="container">
-                <h2>Fauna</h2>
-                <p>Tunja es una ciudad ubicada en el departamento de Boyacá en Colombia y es hogar de una gran diversidad de especies de fauna. A continuación, se presentan algunas de las especies que se pueden encontrar en la zona:</p>
 
-                <div class="row">
-                    <div class="col">
-                        <div class="card" style="width: 30rem;">
-                            <img src="img/aves-pajaro-jilguero.jpg" class="card-img-top" alt="Pájaro Jilguero"/>
-                            <div class="card-body">
-                                <h3 class="card-title">Aves</h3>
-                                <p class="card-text">En Tunja se pueden observar diversas especies de aves como el carpintero, el colibrí, el zorzal, la paloma, el búho, el pato silvestre, la gallina de monte, el canario, el jilguero, y muchas más.</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">https://www.hogarmania.com/mascotas/otras/aves/jilguero-carduelis-carduelis-6505.html</small>
-                                <!-- <p>https://www.hogarmania.com/mascotas/otras/aves/jilguero-carduelis-carduelis-6505.html</p> -->
-                            </div> 
-                        </div>
+            <header class="section-header">   
+                <div class="container-large" id="fauna-content">
+                    <div class="fauna-text-wrap">
+                        <div class="h2-wrap">
+                            <h2>Fauna</h2>
+                       
+                            <p>Tunja es una ciudad ubicada en el departamento de Boyacá en Colombia y es hogar de una gran diversidad de especies de fauna. A continuación, se presentan algunas de las especies que se pueden encontrar en la zona:</p>
+                        </div>           
                     </div>
-                
-                    <div class="col">
-                        <div class="card" style="width: 30rem;">
-                            <img src="img/mamiferos-zarigueya.jpg" alt="Pájaro Jilguero">
-                            <div class="card-body">
-                                <h3 class="card-title">Mamíferos</h3>
-                                <p class="card-text">Algunas de las especies de mamíferos que se pueden encontrar en la zona incluyen el zorro, la ardilla, el armadillo, el conejo, el ratón, la zarigüeya, el puma, el oso hormiguero, el tigrillo, entre otros.</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">
-                                    https://www.radionacional.co/actualidad/medio-ambiente/especies-amenazadas-colombia-zarigueyas
-                                </small>
-                            </div>
-                            <!-- <p>https://www.radionacional.co/actualidad/medio-ambiente/especies-amenazadas-colombia-zarigueyas</p> -->
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="row">
-                    <div class="col">
-                        <div class="card" style="width: 30rem;">
-                            <img src="img/reptiles-iguana.jpg" alt="Iguana">
-                            <div class="card-body">
-                                <h3 class="card-title">Reptiles</h3>
-                                <p class="card-text">Entre los reptiles que se pueden encontrar en Tunja se encuentran la iguana, la boa, la serpiente de cascabel, la culebra, el lagarto, entre otros.</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">
-                                    https://colombia.inaturalist.org/taxa/35342-Iguana-iguana
-                                </small>
-                            </div>
-                            <!-- <p>https://colombia.inaturalist.org/taxa/35342-Iguana-iguana</p> -->
-                        </div>
-                    </div>
-                
-                    <div class="col">
-                        <div class="card" style="width: 30rem;">
-                            <img src="img/anfibio-salamandra.jpg" alt="Salamandra">
-                            <div class="card-body">
-                                <h3 class="card-title">Anfibios</h3>
-                                <p class="card-text">También se pueden encontrar diversas especies de anfibios como la rana, el sapo, la salamandra, entre otros.</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">
-                                    https://colombia.inaturalist.org/taxa/27726-Salamandra-salamandra
-                                </small>
-                            </div>
-                            <!-- <p>https://colombia.inaturalist.org/taxa/27726-Salamandra-salamandra</p> -->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <div class="card" style="width: 30rem;">
-                            <img src="img/insecto-escarabajo.jpg" alt="Salamandra">
-                            <div class="card-body">
-                                <h3 class="card-title">Insectos</h3>
-                                <p class="card-text">Tunja cuenta con una gran diversidad de especies de insectos como las mariposas, las abejas, los escarabajos, los grillos, las hormigas, las cucarachas, entre otros.</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">
-                                    https://atlasanimal.com/escarabajo/
-                                </small>
-                            </div>
-                            <!-- <p>https://atlasanimal.com/escarabajo/</p> -->
-                        </div>
-                    </div>
+                    
                
-                    <div class="col">
-                        <div class="card" style="width: 30rem;">
-                            <img src="img/peces-bagre.jpg" alt="Bagre">
-                            <div class="card-body">
-                                <h3 class="card-title">Peces</h3>
-                                <p class="card-text">Los ríos cercanos a Tunja albergan una gran variedad de peces como la trucha, el bagre, el capaz y la mojarra.</p>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col">
+                                <div class="card" style="width: 30rem;">
+                                    <img src="img/aves-pajaro-jilguero.jpg" class="card-img-top" alt="Pájaro Jilguero"/>
+                                    <div class="card-body">
+                                        <h3 class="card-title">AVES</h3>
+                                        <p class="card-text">En Tunja se pueden observar diversas especies de aves como el carpintero, el colibrí, el zorzal, la paloma, el búho, el pato silvestre, la gallina de monte, el canario, el jilguero, y muchas más.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">https://www.hogarmania.com/mascotas/otras/aves/jilguero-carduelis-carduelis-6505.html</small>
+                                        <!-- <p>https://www.hogarmania.com/mascotas/otras/aves/jilguero-carduelis-carduelis-6505.html</p> -->
+                                    </div> 
+                                </div>
                             </div>
-                            <div class="card-footer">
-                                <small class="text-muted">
-                                    https://atlasanimal.com/bagre/
-                                </small>
+                        
+                            <div class="col">
+                                <div class="card" style="width: 30rem;">
+                                    <img src="img/mamiferos-zarigueya.jpg" alt="Pájaro Jilguero">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Mamíferos</h3>
+                                        <p class="card-text">Algunas de las especies de mamíferos que se pueden encontrar en la zona incluyen el zorro, la ardilla, el armadillo, el conejo, el ratón, la zarigüeya, el puma, el oso hormiguero, el tigrillo, entre otros.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">
+                                            https://www.radionacional.co/actualidad/medio-ambiente/especies-amenazadas-colombia-zarigueyas
+                                        </small>
+                                    </div>
+                                    <!-- <p>https://www.radionacional.co/actualidad/medio-ambiente/especies-amenazadas-colombia-zarigueyas</p> -->
+                                </div>
                             </div>
-                            <!-- <p>https://atlasanimal.com/bagre/</p> -->
+                        
+                        <div class="row">
+                            <div class="col">
+                                <div class="card" style="width: 30rem;">
+                                    <img src="img/reptiles-iguana.jpg" alt="Iguana">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Reptiles</h3>
+                                        <p class="card-text">Entre los reptiles que se pueden encontrar en Tunja se encuentran la iguana, la boa, la serpiente de cascabel, la culebra, el lagarto, entre otros.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">
+                                            https://colombia.inaturalist.org/taxa/35342-Iguana-iguana
+                                        </small>
+                                    </div>
+                                    <!-- <p>https://colombia.inaturalist.org/taxa/35342-Iguana-iguana</p> -->
+                                </div>
+                            </div>
+                        
+                            <div class="col">
+                                <div class="card" style="width: 30rem;">
+                                    <img src="img/anfibio-salamandra.jpg" alt="Salamandra">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Anfibios</h3>
+                                        <p class="card-text">También se pueden encontrar diversas especies de anfibios como la rana, el sapo, la salamandra, entre otros.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">
+                                            https://colombia.inaturalist.org/taxa/27726-Salamandra-salamandra
+                                        </small>
+                                    </div>
+                                    <!-- <p>https://colombia.inaturalist.org/taxa/27726-Salamandra-salamandra</p> -->
+                                </div>
+                            </div>
                         </div>
-                    </div>
+
+                        <div class="row">
+                            <div class="col">
+                                <div class="card" style="width: 30rem;">
+                                    <img src="img/insecto-escarabajo.jpg" alt="Salamandra">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Insectos</h3>
+                                        <p class="card-text">Tunja cuenta con una gran diversidad de especies de insectos como las mariposas, las abejas, los escarabajos, los grillos, las hormigas, las cucarachas, entre otros.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">
+                                            https://atlasanimal.com/escarabajo/
+                                        </small>
+                                    </div>
+                                    <!-- <p>https://atlasanimal.com/escarabajo/</p> -->
+                                </div>
+                            </div>
+                    
+                            <div class="col">
+                                <div class="card" style="width: 30rem;">
+                                    <img src="img/peces-bagre.jpg" alt="Bagre">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Peces</h3>
+                                        <p class="card-text">Los ríos cercanos a Tunja albergan una gran variedad de peces como la trucha, el bagre, el capaz y la mojarra.</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <small class="text-muted">
+                                            https://atlasanimal.com/bagre/
+                                        </small>
+                                    </div>
+                                    <!-- <p>https://atlasanimal.com/bagre/</p> -->
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <p><i>Nota:</i> Es importante destacar que esta lista no es exhaustiva y que existen muchas otras especies de fauna que habitan en la zona.</p>
+                        </div>
+                        <div>
+                            <h3>Registro de Fauna en El Malmo</h3>
+                            <p>Se reportó un total de 50 registros de fauna, pertenecientes a 29 especies (1 de anfibios, 2 de reptiles, 19 de aves y 6 de mamíferos; además, se reportaron 94 individuos de flora.</p>
+                        </div>  
+                    </div>         
                 </div>
-                
-                <div>
-                    <p><i>Nota:</i> Es importante destacar que esta lista no es exhaustiva y que existen muchas otras especies de fauna que habitan en la zona.</p>
-                </div>
-                
-                <div>
-                    <h3>Registro de Fauna en El Malmo</h3>
-                    <p>Se reportó un total de 50 registros de fauna, pertenecientes a 29 especies (1 de anfibios, 2 de reptiles, 19 de aves y 6 de mamíferos; además, se reportaron 94 individuos de flora.</p>
-                </div>           
-            </div>
+            </header>
                
             <div class="container">
                 <div>
