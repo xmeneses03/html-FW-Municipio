@@ -100,6 +100,11 @@ body{
     margin: auto;
 }
 
+.div-visita{
+    display: grid;
+    background-color: #FEFDFB;
+}
+
 /* .div-section-flora{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -197,6 +202,81 @@ body{
     --bs-card-inner-border-radius: 0px !important;
 }
 
+.accordion{
+    --bs-accordion-btn-focus-border-color: transparent !important; 
+    --bs-accordion-btn-focus-box-shadow: transparent !important;
+    --bs-accordion-active-bg: transparent;
+    --bs-accordion-border-color: transparent !important;
+    background-color: #FEFDFB !important;
+    --bs-accordion-bg: #FEFDFB !important;
+}
+
+.accordion-button:not(.collapsed) {
+    /* color: black !important; */
+    background-color: transparent !important;
+}
+
+/* #807866 */
+
+.acordeon-content{
+    background-color: #FEFDFB;
+    
+}
+
+.btn-acordion{
+    background-color: #FEFDFB !important;
+    border-bottom:1px solid #e4e4e4 !important ;
+}
+
+.btn-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    position: relative;
+    align-items: center;
+}
+
+
+.btn-conoce{
+    --bs-btn-bg: #FEFAF1
+     !important;
+    --bs-btn-hover-border-color: #FAE5B9 !important;
+    /* --bs-btn-border-color: black !important; */
+    height: 4rem;
+    width: 10rem;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #807866;
+    border-color: #FAE5B9 !important;
+}
+
+.btn-conoce > b{
+    color: #58544c;
+}
+
+.btn-conoce > b:hover{
+    color: black;
+}
+
+.btn-conoce:hover{
+    background-color: #faeccc !important;
+    
+}
+
+.btn-acordion > h5{
+    color: #807866;
+    letter-spacing: 1px;
+}
+
+.button-wrapper{
+    width: 10rem;
+    /* height: 6rem; */
+}
+
+.btn-acordion > h5:hover{
+    color: black;
+}
+
 .div-uni-footer{
     display: flex;
     justify-content: center;
@@ -243,6 +323,19 @@ body{
 .h3-section > h3{
     margin-bottom: 1rem;
     margin-top: 1rem;
+}
+
+.visita-header{
+    display: flex;
+    justify-content: center;
+}
+
+.accordion-item{
+
+}
+
+.whq-visita{
+    margin-bottom: 2rem;
 }
 
 #nav-content{

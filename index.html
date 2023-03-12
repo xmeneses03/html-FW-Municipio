@@ -10,6 +10,7 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
         crossorigin="anonymous"
         />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
     </head>
     <body>
         <div>
@@ -197,9 +198,80 @@
             </header>
 
             <section class="section-middle">
-                <div class="container-large">
-                    <div class="align-center text-align-center">
-                        <h2>Por qué visitar Tunja</h2>
+                <div class="container-fluid div-visita">
+                    <div class="whq-visita">
+                        <div class="visita-header">
+                            <h2>¿Por qué visitar Tunja?</h2>
+                        </div>
+    
+                        <div class="visita-header">
+                            <p>Son muchas las razones para visitar este minicipio, actual capital del departamento de Boyacá en Colombia.</p>
+                        </div>    
+                    </div>
+                    
+
+                    <div class="container-fluid acordeon-content">
+                        <div class="accordion container" id="accordionExample">
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button collapsed btn-acordion" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                  <h5>Arquitectura Colonial</h5>
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p>Tunja es una ciudad colonial bien conservada, con hermosas edificaciones y calles empedradas que te transportarán en el tiempo. Su arquitectura se caracteriza por edificios de adobe y tapia, techos de tejas y amplios patios internos. Muchos de los edificios coloniales se encuentran en el centro histórico de la ciudad, que ha sido declarado Patrimonio Nacional de Colombia. </p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button btn-acordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                  <h5>Historia y Cultura</h5>
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p>Boyacá es una región muy rica en historia y cultura, y Tunja es uno de sus centros culturales más importantes. En la ciudad encontrarás muchos museos, galerías de arte y sitios históricos que te permitirán conocer más sobre la historia de la región. La ciudad fue fundada en 1539 por Gonzalo Suárez Rendón, y durante la época colonial española, fue un importante centro administrativo y religioso.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                              <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button btn-acordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                  <h5>Festivales</h5>
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p>Tunja es famosa por sus festivales, como el Festival Internacional de la Cultura, que se celebra en septiembre y atrae a muchos visitantes de todo el mundo. El festival cuenta con una gran variedad de eventos, incluyendo conciertos, exposiciones, presentaciones teatrales y talleres de arte.</p>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                  <button class="accordion-button btn-acordion collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    <h5>Turismo de aventura</h5>
+                                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                    <p>Si buscas aventura, Tunja es un lugar perfecto para ti. Es un destino turístico popular para los amantes de la aventura y ofrece una amplia variedad de actividades como senderismo, ciclismo de montaña, parapente y rafting, escalada en roca, entre otras.</p>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="btn-section">
+                        <div class="button-wrapper">
+                            <button type="button" class="btn btn-conoce"><b>CONOCE MÁS</b></button>
+                            <!-- <a href="#" class="button">Conoce más</a> -->
+                        </div>
                     </div>
                 </div>
             </section>
@@ -292,7 +364,9 @@
                         <section>
                             <div class="padding-h3">
                                 <div class="h3-section">
-                                    <h3>Corpoboyacá delimitó seis ecosistemas (cinco de ellos urbanos y uno rural) de la siguiente manera:</h3>
+                                    <h3>
+                                        <span>"Corpoboyacá delimitó seis ecosistemas</span><br/>
+                                        <span>(cinco de ellos urbanos y uno rural)" de la siguiente manera:</span> </h3>
                                 </div>
                             </div>
 
@@ -308,13 +382,13 @@
                                         <img src="img/humedal-3.jpg" class="img-fluid" style="height: 8rem; width: 100%;"/>
                                     </div>
                                     <div class="div-imgs marg-bt">
-                                        <img src="img/humedal-4.jpg" class="img-fluid" style="height: 8rem; width: 100%;"/>
+                                        <img src="img/lago-tota.jpg" class="img-fluid" style="height: 8rem; width: 100%;"/>
                                     </div>
                                     <div class="div-imgs marg-bt">
                                         <img src="img/humedal-5.jpg" class="img-fluid" style="height: 8rem; width: 100%;"/>
                                     </div>
                                     <div class="div-imgs marg-bt">
-                                        <img src="img/humedal-6.jpeg" class="img-fluid" style="height: 8rem; width: 100%;"/>
+                                        <img src="img/humedal-6.jpg" class="img-fluid" style="height: 8rem; width: 100%;"/>
                                     </div>
                                 </div>
 
