@@ -1,81 +1,323 @@
 body{
-    background-color: rgb(0, 0, 0);  
-    font-family: Inter, sans-serif;
+  font-family: 'Libre Baskerville', serif;
+  width: auto;
+  height: auto;
 }
 h1{
-    display: flex;
-    justify-content: center;
+ display: flex;
+ justify-content: center;
+ font-family: 'Libre Baskerville', serif;
 }
-video{
-    width: 550px;
-    height: 450px;
+.container-fluid{
+color: chocolate;
 }
-  
+/**-----negro--------------------------------------------------------*/
+.grid-container{
+background-color: #fefaf1;
+
+}
+
+.Lugares-Turisticos{
+background-color: #fefaf1;
+}
+
+/**-----barra de navegacion------------------------------------------*/
+nav {
+background-color: #fefaf1;
+color: #000;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px;
+}
+
+nav ul {
+display: flex;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+nav ul li {
+margin-right: 20px;
+}
+
+nav ul li:last-child {
+margin-right: 0;
+}
+
+nav ul li a {
+color: #fff;
+text-decoration: none;
+padding: 10px;
+}
+
+nav ul li a:hover {
+background-color: #555;
+}
+
+nav ul li a:hover {
+color: #fff;
+}
+/**-----titulosh2----------------------------------------------------*/
+.tittleh2{
+padding: 3%;
+background: #ffbf69;
+font-size: 48px;
+color: #333;
+text-transform: uppercase;
+letter-spacing: 2px;
+
+}
+/*---------tituloh1-----------------------------------------------*/ 
+.titleI {
+padding: 3%;
+background: #ffbf69;
+font-size: 48px;
+color: #333;
+text-transform: uppercase;
+letter-spacing: 2px;
+
+}
+
+.titleI h1 {
+font-size: 48px;
+color: #333;
+text-transform: uppercase;
+letter-spacing: 2px;
+
+}
+
+/* ------------------------------------------------------------------ */
 .container{
-    display: flex;
+ display: flex;
 justify-content: center;
 align-items: center;
 }
 
-h2{
-    display: flex;
-    justify-content: center;
-    font-family: Arial, Helvetica, sans-serif;
-   
-    font-size: 55px;
-    font-weight: 600;
-    text-shadow: 2px 2px rgb(250, 205, 188);
-    
-}  
-  .card body{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .text-justify{
-    text-align: justify;
-  }
-  .text-center{
-    text-align: center;
-  }
-
-  div.video{
-    background-color: black;
-  }
-  div.texto{
-    margin: 40px 30px
-    
-  }
-div.pie{
-    background-color:blanchedalmond;
+.text-center{
+justify-content: center;
 }
-  div.texto{
-    display: flex;
-  }
+h2{
+ display: flex;
+ justify-content: center;
+ font-family: 'Libre Baskerville', serif;
+ text-decoration: blue;
+ font-size: 55px;
+ font-weight: 600;
+ 
+ 
+}  
+.card body{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
 
-  /** Movimiento fotografias */
+.text-justify{
+ text-align: justify;
+}
+.text-center{
+ text-align: center;
+}
+div.texto{
+ margin: 40px 30px
+ 
+}
+div.pie{
+ background-color:blanchedalmond;
+}
+/** -------------------- img background-----------------------------------------------*/
+.background-image {
+ background-image: url("imgs/TunjaBg.jpg");
+ background-size: cover;
+ background-position: center;
+ height: 550px;
+ width: 100%;
+ position: relative;
+
+}
+
+.overlay {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ background-color: rgba(0, 0, 0, 0.5);
+ padding: 20px;
+ color: #fff;
+ text-align: center;
+}
+
+.overlay p {
+ font-size: 24px;
+ font-weight: bold;
+ margin: 0;
+}
+
+/** ----------------------video---------------------------------------------------------*/
+div.video{
+background-color: black;
+}
+
+/**  ---------------------Grid----------------------------------------------------------*/
+
+.grid-container {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+gap: 20px;
+
+
+}
+.grid-container p{
+text-align: center;
+}
+
+.video { 
+grid-column: 1;
+}
+
+.text {
+grid-column: 2;
+}
+
+/**----------------------Link-----------------------------------------------------------*/
+.linkT{
+margin-bottom: 100px;
+display: contents;
+align-items:center;
+width: 100px;
+height: auto;
+
+}
+
+.linkT a:link, a:visited{
+align-items: center;
+background-color: #f4a261;
+color: black;
+margin: 10px;
+padding: 15px 25px;
+text-align: center;
+text-decoration: none;
+display: block;
+border-radius: 15px;
+}
+.LinkT a:hover, a:active{
+display: inline-block;
+background-color: #da8a48;
+align-items: center;
+border-radius: 15;
+} 
+
+
+
+/**------------------- Movimiento fotografias---------------------------------------- */
 div.galeria{
-    margin: 40px 30px;
-    box-shadow: 0 4px 8px 0 rgb(226, 189, 109), 0 6px 20px 0 rgba(0,0, 0, 0.19);
-    float: left;
-    width: 350px;
+ margin: 40px 30px;
+ box-shadow: 0 4px 8px 0 rgb(226, 189, 109), 0 6px 20px 0 rgba(0,0, 0, 0.19);
+ float: left;
+ width: 350px;
 }
 div.contedGalery{
-    margin: 20px 50px;
+ margin: 20px 40px;
 }
 div.galeria img{
-    width: 100%;
-    height: 400px;
+ width: 100%;
+ height: 400px;
 }
 div.galeria:hover{
-    border: 1px solid lightcoral;
-    transform: rotate(-3deg)
-    ;
+ border: 1px solid lightcoral;
+ transform: rotate(-3deg)
+ ;
 }
 div.pie{
-    text-align: center;
-    
-    padding: 10px;
+ text-align: center;
+ 
+ padding: 10px;
+}
+
+
+
+.Lugares-Turisticos{
+width: auto;
+height: auto;
+}
+/**----------------- HooverImgNuevo----------------*/
+.image-container {
+display: inline-block;
+position: relative;
+margin: 10px 22px 10px 22px;
+transition: all 0.5s ease-out;
+
+
+}
+
+.image-container:hover {
+transform: scale(1.04);
+}
+
+.image-info {
+display: none;
+position: absolute;
+bottom: 0;
+left: 0;
+width: 100%;
+padding: 10px;
+background-color: rgba(0, 0, 0, 0.6);
+color: #fff;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.image-container:hover .image-info {
+display: block;
+}
+
+/**------------------footer-----------------------*/
+footer {
+margin-top: 2000px;
+display:block;
+background-color: #f4a261;
+color: black;
+padding: 50px 0;
+}
+
+.footer-container {
+display: block;
+justify-content: space-between;
+align-items: flex-start;
+max-width: 1200px;
+margin: 10px auto;
+font-size: 16px;
+}
+
+.footer-container div {
+width: 30%;
+}
+
+.footer-container h3 {
+font-size: 20px;
+margin-bottom: 20px;
+}
+
+.footer-container ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.footer-container li {
+margin-bottom: 10px;
+}
+
+.footer-container a {
+color: #fff;
+text-decoration: none;
+}
+
+.footer-container a:hover {
+text-decoration: underline;
 }
